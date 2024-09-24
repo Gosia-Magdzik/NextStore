@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const ReviewsPage = () => {
+function ReviewsPage() {
   return (
     <div>ReviewsPage</div>
   )
 }
+
+export default ReviewsPage
