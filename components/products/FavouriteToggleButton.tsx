@@ -1,8 +1,15 @@
 import React from 'react'
+import { Button } from '../ui/button'
 
-function FavouriteToggleButton() {
+function FavouriteToggleButton({productId}:{productId:string}) {
   return (
-    <div>FavouriteToggleButton</div>
+    <Button 
+      size='icon'
+      variant={}
+      className=''
+    >
+      FavouriteToggleButton
+    </Button>
   )
 }
 
